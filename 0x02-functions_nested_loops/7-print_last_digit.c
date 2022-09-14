@@ -17,7 +17,7 @@ int print_last_digit(int n)
 	}
 	else if (n < 0)
 	{
-		z = (-1 * n) % 10;
+		z = (n % 10) * -1;
 
 	};
 
