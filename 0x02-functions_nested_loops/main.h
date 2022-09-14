@@ -42,4 +42,8 @@ void jack_bauer(void);
  * add - Adds two integers and returns the correct value
  */
 int add(int a, int b);
+/**
+ * print_to_98 - Function that prints all natural numbers from a number n to 98
+ */
+void print_to_98(int n);
 #endif
