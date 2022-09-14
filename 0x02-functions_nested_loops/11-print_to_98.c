@@ -19,7 +19,8 @@ void print_to_98(int n)
 		else
 		{
 			_putchar(i);
-			_putchar(",\t");
+			_putchar(',');
+			_putchar('\t');
 		};
 	}
 }
