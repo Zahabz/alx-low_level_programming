@@ -22,4 +22,8 @@ int _islower(int c);
  * _isalpha - Checks alphabet characters whether uppercase or lowercase
  */
 int _isalpha(int c);
+/**
+ * print_sign - Identifies whether number is positive or negative then prints sign.
+ */
+int print_sign(int n);
 #endif
