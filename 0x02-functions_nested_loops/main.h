@@ -18,5 +18,8 @@ void print_alphabet_x10(void);
  * _islower - Checks for lower case characters
  */
 int _islower(int c);
-
+/**
+ * _isalpha - Checks alphabet characters whether uppercase or lowercase
+ */
+int _isalpha(int c);
 #endif
