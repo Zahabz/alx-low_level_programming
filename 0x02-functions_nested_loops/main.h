@@ -30,4 +30,8 @@ int print_sign(int n);
  * int_abs - Computes the absolute value of an integer
  */
 int _abs(int n);
+/**
+ * print_last_digit - Computes the last digit in a number
+ */
+int print_last_digit(int n);
 #endif
