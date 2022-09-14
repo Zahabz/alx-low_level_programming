@@ -26,4 +26,8 @@ int _isalpha(int c);
  * print_sign - Identifies whether number is positive or negative then prints sign.
  */
 int print_sign(int n);
+/**
+ * int_abs - Computes the absolute value of an integer
+ */
+int _abs(int n);
 #endif
