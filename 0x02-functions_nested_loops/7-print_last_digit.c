@@ -21,5 +21,5 @@ int print_last_digit(int n)
 
 	};
 
-	return (z);
+	return (z % 10);
 }
