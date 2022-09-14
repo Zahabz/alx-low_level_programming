@@ -1,12 +1,16 @@
 #ifndef HEADER_FILE
 #define HEADER_FILE
-
-int _putchar(char d);
 /**
  * _putchar - Prints characters into word
  *
  */
-void print_alphabet(void){
+int _putchar(char d);
+/**
+ * print_alphabet -Prints alphabet in lowercase
+ *
+ */
+void print_alphabet(void)
+{
 
 	char i;
 
@@ -14,9 +18,8 @@ void print_alphabet(void){
 	{
 		_putchar(i);
 	};
+
+	_putchar('\n');
 };
-/**
- * print_alphabet - Prints alphabet in lowercase
- */
 
 #endif
