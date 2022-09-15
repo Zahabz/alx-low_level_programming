@@ -46,4 +46,8 @@ int add(int a, int b);
  * print_to_98 - Function that prints all natural numbers from a number n to 98
  */
 void print_to_98(int n);
+/**
+ * times_table - Prints the 9 times table
+ */
+void times_table(void);
 #endif
